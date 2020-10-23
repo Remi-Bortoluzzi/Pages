@@ -2,7 +2,7 @@
     font-size: 2em;
 }
 body{
-    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, #1268e9b4,#a7ff9bb6);
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, #EBF5EE,#BFA89E);
 }
 .gradient{
     animation: gradient-font 5s infinite;
@@ -10,11 +10,24 @@ body{
 .border-gradient{
     border: 5px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(#1269e9, #a6ff9b);
+    border-image-source: linear-gradient(#BFA89E, #78A1BB);
 }
-.importantWords{
-    color: #0c49a5;
+.border-gradient-header{
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #BFA89E, #78A1BB);
+}
+.border-gradient-footer{
+    border-top: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #BFA89E, #78A1BB);
+}
+.importantWordsBrown{
+    color: #8B786D;
     font-weight: bold;
+}
+.importantWordsBlue{
+    color: #78A1BB;
 }
 .fa-star{
     animation: gradient-font 5s infinite;
@@ -48,20 +61,20 @@ body{
     border: none;
 }
 a{
-    color: #1269e9;
+    color: #8B786D;
     
 }
 a:hover{
-    color: #a6ff9b;
+    color: #78A1BB;
 }
 @keyframes gradient-font {
     0% {
-        color: #1269e9;
+        color: #8B786D;
     }
     50% {
-        color: #a6ff9b; 
+        color: #78A1BB; 
     }
     100% {
-        color: #1269e9;
+        color: #8B786D;
     }
   }
