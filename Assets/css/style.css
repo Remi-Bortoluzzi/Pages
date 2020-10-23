@@ -28,6 +28,10 @@ body{
 }
 .importantWordsBlue{
     color: #78A1BB;
+    font-style: italic;
+}
+.blueText{
+    color: #353F5A;
 }
 .fa-star{
     animation: gradient-font 5s infinite;
@@ -45,6 +49,9 @@ body{
     animation: gradient-font 5s infinite;
 }
 .fa-music{
+    animation: gradient-font 5s infinite;
+}
+.fa-briefcase{
     animation: gradient-font 5s infinite;
 }
 .customizedList{
