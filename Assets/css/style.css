@@ -1,0 +1,67 @@
+.introduction{
+    font-size: 2em;
+}
+body{
+    background-image: repeating-linear-gradient(135deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, #1268e9b4,#a7ff9bb6);
+}
+.gradient{
+    animation: gradient-font 5s infinite;
+}
+.border-gradient{
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(#1269e9, #a6ff9b);
+}
+.importantWords{
+    color: #0c49a5;
+    font-weight: bold;
+}
+.fa-star{
+    animation: gradient-font 5s infinite;
+}
+.fa-phone{
+    animation: gradient-font 5s infinite;
+}
+.fa-envelope{
+    animation: gradient-font 5s infinite;
+}
+.fa-hashtag{
+    animation: gradient-font 5s infinite;
+}
+.fa-linkedin{
+    animation: gradient-font 5s infinite;
+}
+.fa-music{
+    animation: gradient-font 5s infinite;
+}
+.customizedList{
+    list-style-type: none;
+    line-height: 3em;
+}
+.backgroundList{
+    line-height: 3em;
+}
+.experiencesList{
+    line-height: 2em;
+}
+.infoList{
+    border: none;
+}
+a{
+    color: #1269e9;
+    
+}
+a:hover{
+    color: #a6ff9b;
+}
+@keyframes gradient-font {
+    0% {
+        color: #1269e9;
+    }
+    50% {
+        color: #a6ff9b; 
+    }
+    100% {
+        color: #1269e9;
+    }
+  }
